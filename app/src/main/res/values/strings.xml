@@ -5,7 +5,7 @@
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
 
-    <string name="new_task">Add new ToDo item</string>
-    <string name="save">Save</string>
+    <string name="new_todo_item">Add new 2Do item</string>
+    <string name="add">Add</string>
     <string name="cancel">Cancel</string>
 </resources>
