@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity(), NewToDoItemFragment.NewToDoDialogListe
 
     private fun populateListView() {
 
-        listAdapter = ArrayAdapter(this, R.layout.custom_layout, todoListItems)
+        listAdapter = ArrayAdapter(this, R.layout.custom_layout, R.id.ToDoItem, todoListItems)
         listView?.adapter = listAdapter
     }
 }

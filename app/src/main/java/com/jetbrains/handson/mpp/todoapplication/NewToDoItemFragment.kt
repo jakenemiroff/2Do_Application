@@ -54,7 +54,7 @@ class NewToDoItemFragment: DialogFragment() {
 //      use the LayoutInflater of the DialogFragment instance’s parent activity to inflate the layout
 //      set the inflated view as the dialog’s view
         val dialogView = activity?.layoutInflater?.inflate(R.layout.new_todo_item_dialog, null)
-        val toDoItem = dialogView?.findViewById<EditText>(R.id.ToDoItem)
+        val toDoItem = dialogView?.findViewById<EditText>(R.id.ToDoItemDialog)
 
 //      set two buttons to the dialog: Add and Cancel
 
